@@ -1,0 +1,3 @@
+#!/bin/sh
+args="$@"
+t2.py ru en $@
