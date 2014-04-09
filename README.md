@@ -6,7 +6,10 @@ Initial version taken from http://habrahabr.ru/post/113243/
 
 Requirements
 ====
-Current version testsed on python 2.7.3, Ubuntu 12.04<br>
+Current version testsed on:
+* python 2.7.3, Ubuntu 12.04
+* python 2.7.5, Ubuntu 13.10
+
 PIP dependencies:
 * [clint](https://github.com/kennethreitz/clint) (Python Command-line Application Tools)
 * [requests](http://docs.python-requests.org/en/latest/) (Pretty HTTP library, written in Python, for human beings)
