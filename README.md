@@ -1,8 +1,8 @@
 t2
 ==
 
-The simple script "translate to" to translate words &amp; sentences in CLI (based on Google translate resource)<br>
-Initial version taken from http://habrahabr.ru/post/113243/
+The simple script "translate to" to translate words &amp; sentences in CLI (based on yandex API translate resource)<br>
+TODO: update this description
 
 Requirements
 ====
