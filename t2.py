@@ -12,7 +12,7 @@ from clint.textui import colored
 
 DICT_API_URL = 'https://dictionary.yandex.net/api/v1/dicservice.json/lookup'  # words translate
 TRANSL_API_URL = 'https://translate.yandex.net/api/v1.5/tr.json/translate'  # text translate
-CONFIG_FILE = os.path.expanduser('~')+'/.t2config'
+CONFIG_FILE = os.path.expanduser('~')+'/.t2conf'
 
 
 def display_dict_response(data):
