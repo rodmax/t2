@@ -9,7 +9,7 @@ Requirements
 Current version should work on:
 * python 2.7.3+
 
-> porting to python 3 seems simple operation
+> porting to python 3 seems to do easily
 
 PIP dependencies:
 * [clint](https://github.com/kennethreitz/clint) (Python Command-line Application Tools)
