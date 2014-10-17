@@ -15,6 +15,19 @@ PIP dependencies:
 * [clint](https://github.com/kennethreitz/clint) (Python Command-line Application Tools)
 * [requests](http://docs.python-requests.org/en/latest/) (Pretty HTTP library, written in Python, for human beings)
 
+Install
+====
+* Put **t2.py, toru, toen** to any $PATH folder
+* Create **~/.t2conf** json file in format
+```json
+{
+    "transl_key": "trnsl.1.1.<YOUR-KEY>",
+    "dict_key": "dict.1.1.<YOUR-KEY>"
+}
+```
+> Go to [api.yandex.ru getting key page](http://api.yandex.ru/key/form.xml)
+to get  KEYS for used services
+
 Usage
 ====
 Arguments
