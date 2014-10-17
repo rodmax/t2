@@ -6,9 +6,10 @@ TODO: update this description
 
 Requirements
 ====
-Current version testsed on:
-* python 2.7.3, Ubuntu 12.04
-* python 2.7.5, Ubuntu 13.10
+Current version should work on:
+* python 2.7.3+
+
+> porting to python 3 seems simple operation
 
 PIP dependencies:
 * [clint](https://github.com/kennethreitz/clint) (Python Command-line Application Tools)
