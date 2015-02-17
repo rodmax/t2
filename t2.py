@@ -63,10 +63,12 @@ def main():
         print colored.red("Server returned code {}".format(resp.status_code))
         sys.exit(1)
 
-    if use_dict:
-        display_dict_response(resp.json())
-    else:
-        display_transl_response(resp.json())
+    data = resp.json()
+
+    # Uncomment to debug response data
+    # print json.dumps(data, indent=4)
+
+    (display_dict_response if use_dict else display_transl_response)(data)
 
 
 if __name__ == '__main__':
